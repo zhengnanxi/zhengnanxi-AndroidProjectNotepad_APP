@@ -26,7 +26,7 @@
 
    初略的功能模块图介绍
 
-   ![image-20210409221014574](https://raw.githubusercontent.com/zhengnanxi/AndroidProjectNotepad_APP/master/image-20210409221014574.png)
+   ![image-20210409221014574](https://raw.githubusercontent.com/zhengnanxi/zhengnanxi-AndroidProjectNotepad_APP/master/image-20210409221014574.png)
 
 ​																		**🚀<a href="https://www.bilibili.com/video/BV1m54y1b73J">项目演示视频</a>🚀**
 
@@ -97,7 +97,7 @@
 
 1. 用户数据表---->表名：RegisterMessage
 
-![image-20210409225145205](https://raw.githubusercontent.com/zhengnanxi/AndroidProjectNotepad_APP/master/image-20210409225145205.png)
+![image-20210409225145205](https://raw.githubusercontent.com/zhengnanxi/zhengnanxi-AndroidProjectNotepad_APP/master/image-20210409225145205.png)
 
 2. 存储用户日志表---->由于太多列，所以大家查看源码里面的sql数据自行创建
 
