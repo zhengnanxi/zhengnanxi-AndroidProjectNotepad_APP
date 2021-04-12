@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_stat_home"
+            android:title="主界面" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_stat_weather_picture"
+            android:title="天气预报" />
+        <!-->
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_stat_traincheck_picture"
+            android:title="车票查询" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="小工具" />
+        <-->
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+            <!-->
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_community_picture"
+                android:title="社区" />
+            <-->
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_my_function_picture"
+                android:title="我的" />
+
+        </menu>
+    </item>
+
+
+</menu>

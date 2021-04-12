@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="385dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/mail_my"
+            android:layout_width="275dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="108dp"
+            android:text=""
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_my" />
+
+        <ImageView
+            android:id="@+id/image_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fire" />
+
+        <TextView
+            android:id="@+id/account_my"
+            android:layout_width="150dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/mail_my"
+            app:layout_constraintStart_toEndOf="@+id/image_my"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.941" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_my" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.894" />
+
+        <TextView
+            android:id="@+id/cloud_sum"
+            android:layout_width="94dp"
+            android:layout_height="43dp"
+            android:text="0"
+            android:textSize="35dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/cloud_sum_tag"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="@+id/view4"
+            app:layout_constraintTop_toTopOf="@+id/view4"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="44dp"
+            android:layout_height="66dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/view4"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/image_my"
+            app:srcCompat="@drawable/pass" />
+
+        <TextView
+            android:id="@+id/create_sum_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="创作数量"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.561"
+            app:layout_constraintStart_toStartOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/cloud_sum_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="云端存放数量"
+            app:layout_constraintBottom_toBottomOf="@+id/view4"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintStart_toStartOf="@+id/view4" />
+
+        <TextView
+            android:id="@+id/create_sum"
+            android:layout_width="94dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="4dp"
+            android:text="0"
+            android:textSize="35dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/create_sum_tag"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toTopOf="@+id/view"
+            app:layout_constraintVertical_bias="0.909" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="385dp"
+        android:layout_height="395dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corner_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.113">
+
+
+        <View
+            android:id="@+id/funtion_2"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/funtion_1"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/funtion_2"
+            app:layout_constraintEnd_toStartOf="@+id/funtion_2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/funtion_2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/funtion_3"
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/funtion_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/funtion_2"
+            app:layout_constraintTop_toTopOf="@+id/funtion_2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/cloud_data_delete"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:layout_constraintEnd_toEndOf="@+id/funtion_1"
+            app:layout_constraintHorizontal_bias="0.557"
+            app:layout_constraintStart_toStartOf="@+id/funtion_1"
+            app:layout_constraintTop_toTopOf="@+id/funtion_1"
+            app:srcCompat="@drawable/ic_function_delete_cloud_picture"
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="云端管理"
+            app:layout_constraintBottom_toBottomOf="@+id/funtion_1"
+            app:layout_constraintEnd_toEndOf="@+id/cloud_data_delete"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cloud_data_delete"
+            app:layout_constraintTop_toBottomOf="@+id/cloud_data_delete"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/changepassword"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="@+id/funtion_2"
+            app:layout_constraintStart_toStartOf="@+id/funtion_2"
+            app:layout_constraintTop_toTopOf="@+id/funtion_2"
+            app:srcCompat="@drawable/ic_function_changepassword_picture" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="修改密码"
+            app:layout_constraintBottom_toBottomOf="@+id/funtion_2"
+            app:layout_constraintEnd_toEndOf="@+id/changepassword"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="@+id/changepassword"
+            app:layout_constraintTop_toBottomOf="@+id/changepassword"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
